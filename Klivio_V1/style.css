@@ -15,6 +15,10 @@
     --font-primary: 'Montserrat', sans-serif;
 }
 
+input::placeholder {
+  color: var(--klivio-white);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -105,10 +109,9 @@ img {
 
 .header {
     padding: 15px 0;
-    border-bottom: 1px solid #eee;
     position: sticky;
     top: 0;
-    background: #fff;
+    background: var(--klivio-blue-night);
     z-index: 1000;
 }
 
@@ -349,7 +352,7 @@ cite {
 /* ==================================== */
 
 .footer {
-    background: var(--klivio-blue-night); /* Bleu Nuit */
+    background: var(--klivio-blue-night); 
     color: #fff;
     padding: 30px 0;
     font-size: 0.9rem;
@@ -420,7 +423,7 @@ cite {
     }
     
     .nav-link {
-        color: var(--klivio-blue-night);
+        color: var(--klivio-white);
         font-weight: 600;
     }
 
@@ -434,8 +437,9 @@ cite {
         width: 100%;
         padding: 8px 35px 8px 15px;
         border-radius: 20px;
-        border: 1px solid #ddd;
-        font-family: var(--font-primary);
+        border: 1px solid #FFFFFF;
+        background: var(--klivio-blue-night);
+        font-family: var(--klivio-white);
     }
     
     .search-icon {
@@ -443,7 +447,7 @@ cite {
         right: 15px;
         top: 50%;
         transform: translateY(-50%);
-        color: var(--klivio-green);
+        color: var(--klivio-white);
     }
     
     .header-buttons {
