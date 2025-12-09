@@ -68,7 +68,7 @@ img {
 /* 2. BOUTONS & ELEMENTS GENERIQUES     */
 /* ==================================== */
 
-.btn-primary, .btn-secondary {
+.btn-primary, .btn-secondary, .btn-third{
     padding: 10px 20px;
     border-radius: 6px;
     font-weight: 600;
@@ -99,11 +99,23 @@ img {
     color: var(--klivio-blue-night); /* Texte en bleu nuit au survol pour un bon contraste */
 }
 
+.btn-third {
+    background: var(--klivio-blue-night);
+    color: var(--klivio-white); 
+    border: 2px solid var(--klivio-blue-night); 
+}
+
+.btn-third:hover {
+    background: var(--klivio-white);
+    color: var(--klivio-blue-night);
+}
+
 .center-btn {
     display: block;
     width: fit-content;
     margin: 30px auto 0;
 }
+
 
 /* ==================================== */
 /* 3. HEADER & NAVIGATION (MOBILE FIRST)*/
