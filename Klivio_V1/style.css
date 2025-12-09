@@ -208,9 +208,8 @@ img {
 }
 
 .card {
-    background: var(--klivio-light-gray);
+    background: var(--klivio-white);
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 .card img {
@@ -254,7 +253,7 @@ img {
 
 .testimonials {
     padding: 40px 0;
-    background: var(--klivio-light-gray);
+    background: var(--klivio-white);
 }
 
 .testimonial-list {
@@ -268,7 +267,6 @@ img {
     background: #fff;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 .testimonial-img {
