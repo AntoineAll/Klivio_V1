@@ -3,6 +3,7 @@
 /* ==================================== */
 :root {
     /* Couleurs de la charte Klivio (Mises à jour) */
+    --klivio-white: #FFFFFF;
     --klivio-green: #44DD8A; /* Vert Primaire */
     --klivio-blue-night: #152237; /* Bleu Nuit (Titres, Footer) */
     --klivio-text-color: #000000; /* Texte Principal (Noir) */
@@ -82,9 +83,9 @@ img {
 }
 
 .btn-secondary {
-    background: transparent;
-    color: var(--klivio-green); /* Texte en vert */
-    border: 2px solid var(--klivio-green); /* Bordure en vert */
+    background: var(--klivio-white);
+    color: var(--klivio-blue-night); 
+    border: 2px solid var(--klivio-white); 
 }
 
 .btn-secondary:hover {
