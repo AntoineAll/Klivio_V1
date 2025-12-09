@@ -297,8 +297,14 @@ cite {
 /* 7. AVANTAGES & DEVENIR AUTEUR        */
 /* ==================================== */
 
-.advantages, .become-author {
+.advantages{
     padding: 60px 0;
+    background: var(--klivio-light-gray);
+}
+
+.become-author {
+    padding: 60px 0;
+    background: var(--klivio-green);
 }
 
 .advantage-grid, .author-grid {
@@ -313,6 +319,10 @@ cite {
     order: -1; 
 }
 
+.author-grid img {
+    order: 1; 
+}
+
 .advantages ul, .become-author ul {
     text-align: left;
     margin-top: 20px;
@@ -325,8 +335,15 @@ cite {
     align-items: flex-start;
 }
 
-.advantages li i, .become-author li i {
+.advantages li i{
     color: var(--klivio-green);
+    font-size: 1.1rem;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+
+.become-author li i{
+    color: var(--klivio-white);
     font-size: 1.1rem;
     margin-right: 15px;
     margin-top: 3px;
