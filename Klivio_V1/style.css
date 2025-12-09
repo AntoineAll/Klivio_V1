@@ -21,6 +21,10 @@ input::placeholder {
   color: var(--klivio-white);
 }
 
+textarea::placeholder {
+  color: var(--klivio-white);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -355,7 +359,7 @@ cite {
 
 .about-us {
     padding: 40px 0;
-    text-align: center;
+    text-align: left;
     background: var(--klivio-light-gray);
 }
 
@@ -379,9 +383,9 @@ cite {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
-    border-radius: 6px;
     border: 1px solid #ccc;
     font-family: var(--font-primary);
+    background: var(--klivio-blue-night);
 }
 
 .contact-form textarea {
@@ -485,7 +489,6 @@ cite {
         border-radius: 20px;
         border: 1px solid #FFFFFF;
         background: var(--klivio-blue-night);
-        font-family: var(--klivio-white);
     }
     
     .search-icon {
