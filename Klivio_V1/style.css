@@ -6,11 +6,12 @@
     --klivio-white: #FFFFFF;
     --klivio-green: #44DD8A; /* Vert Primaire */
     --klivio-blue-night: #152237; /* Bleu Nuit (Titres, Footer) */
+    --klivio-burger-white: #FEF7FF;/*Blanc du burger menu*/
     --klivio-text-color: #000000; /* Texte Principal (Noir) */
     --klivio-light-gray: #F7F7F7; /* Fond des cartes et sections claires */
     --klivio-star-yellow: #FFC107; /* Couleur Or pour les étoiles */
-    --klivio-gradient: linear-gradient(to right, #44DD8A, #15B7E2);
-    --klivio-gradient-80: linear-gradient(to right,color-mix(in srgb, #44DD8A 80%, transparent),color-mix(in srgb, #15B7E2 80%, transparent));
+    --klivio-gradient: linear-gradient(to right, #44DD8A, #15B7E2); /*Dégradé de couleur*/
+    --klivio-gradient-80: linear-gradient(to right,color-mix(in srgb, #44DD8A 80%, transparent),color-mix(in srgb, #15B7E2 80%, transparent));/*Dégradé de couleur pour le filtrage à 80% dans la section hero*/
 
     /* Typographie */
     --font-primary: 'Montserrat', sans-serif;
@@ -135,7 +136,7 @@ img {
     font-size: 1.5rem;
     background: none;
     border: none;
-    color: var(--klivio-white); 
+    color: var(--klivio-burger-white); 
 }
 
 
@@ -165,14 +166,6 @@ img {
     position: relative;
     z-index: 1;
 }
-/*
-.hero {
-    background: url('assets/images/bg-header.png') no-repeat center center/cover;
-    padding: 60px 0;
-    color: #fff;
-    text-align: center;
-    filter: brightness(80%);
-}*/
 
 .hero h2 {
     font-size: 2rem;
