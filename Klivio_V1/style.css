@@ -269,7 +269,7 @@ img {
     color: var(--klivio-white);    
     position: relative;
     bottom: 1.8rem;
-    
+
 
     background: var(--klivio-blue-night);
     padding: 0.6rem 1rem;
@@ -277,7 +277,7 @@ img {
 
     font-weight: 700;
     font-size: 1rem;
-
+    margin-left: 7rem;
 }
 
 .price2 {
@@ -292,7 +292,7 @@ img {
 
     font-weight: 700;
     font-size: 1rem;
-
+    margin-left: 7rem;
 }
 
 .card h3 {
