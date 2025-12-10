@@ -236,8 +236,19 @@ img {
     gap: 25px;
 }
 
+.card-list2 {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 25px;
+}
+
 .card {
     background: var(--klivio-white);
+    overflow: hidden;
+}
+
+.card2 {
+    background: var(--klivio-blue-night);
     overflow: hidden;
 }
 
@@ -249,12 +260,39 @@ img {
     padding: 15px;
 }
 
+.card-info2 {
+    padding: 15px;
+}
+
+
 .price {
-    color: var(--klivio-green);
+    color: var(--klivio-white);    
+    position: relative;
+    bottom: 1.8rem;
+    
+
+    background: var(--klivio-blue-night);
+    padding: 0.6rem 1rem;
+    border-radius: 15px;
+
     font-weight: 700;
-    font-size: 1.2rem;
-    display: block;
-    margin-bottom: 5px;
+    font-size: 1rem;
+
+}
+
+.price2 {
+    color: var(--klivio-blue-night);    
+    position: relative;
+    bottom: 1.8rem;
+    
+
+    background: var(--klivio-white);
+    padding: 0.6rem 1rem;
+    border-radius: 15px;
+
+    font-weight: 700;
+    font-size: 1rem;
+
 }
 
 .card h3 {
@@ -266,6 +304,19 @@ img {
 
 .instructor, .description {
     color: var(--klivio-text-color);
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.card2 h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--klivio-white);
+    margin-bottom: 5px;
+}
+
+.instructor2, .description2 {
+    color: var(--klivio-white);
     font-size: 0.9rem;
     line-height: 1.4;
 }
@@ -545,8 +596,16 @@ cite {
     .card-list {
         grid-template-columns: repeat(4, 1fr); 
     }
+
+    .card-list2 {
+        grid-template-columns: repeat(4, 1fr); 
+    }
     
     .courses {
+        padding: 80px 0;
+    }
+
+    .courses2 {
         padding: 80px 0;
     }
     
