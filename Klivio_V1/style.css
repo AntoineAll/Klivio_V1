@@ -35,6 +35,8 @@ body {
     font-family: var(--font-primary);
     color: var(--klivio-text-color); /* Appliqué au corps (Noir) */
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -457,7 +459,7 @@ cite {
 
 /* TEXTE À GAUCHE */
 .about-text {
-    background: var(--klivio-white);
+    background: var(--klivio-light-gray);
     padding: 80px 60px;
 }
 
