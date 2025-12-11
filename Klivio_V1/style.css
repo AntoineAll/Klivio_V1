@@ -493,7 +493,7 @@ cite {
 
 .footer {
     background: var(--klivio-blue-night); 
-    color: #fff;
+    color: var(--klivio-white);
     padding: 30px 0;
     font-size: 0.9rem;
     text-align: center;
@@ -526,7 +526,7 @@ cite {
 }
 
 .footer-socials a {
-    color: #fff;
+    color: var(--klivio-white);
     font-size: 1.3rem;
     margin: 0 10px;
     transition: color 0.3s;
