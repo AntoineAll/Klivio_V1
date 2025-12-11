@@ -34,7 +34,6 @@ textarea::placeholder {
 body {
     font-family: var(--font-primary);
     color: var(--klivio-text-color); /* Appliqué au corps (Noir) */
-    /*background: #fff;*/
     line-height: 1.6;
 }
 
@@ -50,11 +49,10 @@ ul {
 img {
     width: 100%;
     display: block;
-    object-fit: cover;
 }
 
 .container {
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     margin: auto;
 }
@@ -409,10 +407,6 @@ cite {
     order: -1; 
 }
 
-.author-grid img {
-    order: 1; 
-}
-
 .advantages ul, .become-author ul {
     text-align: left;
     margin-top: 20px;
@@ -437,6 +431,12 @@ cite {
     font-size: 1.1rem;
     margin-right: 15px;
     margin-top: 3px;
+}
+
+.format {
+    height: 30px;
+    width: 30px;
+    padding-right: 1rem;
 }
 
 /* ==================================== */
@@ -637,7 +637,6 @@ cite {
 
     .advantage-grid img {
         order: 0; 
-        flex: 1;
         max-width: 45%;
     }
     
@@ -653,7 +652,6 @@ cite {
     }
     
     .author-grid img {
-        flex: 1;
         max-width: 45%;
     }
     
