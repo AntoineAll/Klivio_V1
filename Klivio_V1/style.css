@@ -348,13 +348,14 @@ img {
 .testimonial-list {
     display: flex;
     flex-direction: column; 
-    gap: 30px;
+    gap: 10px;
+    padding-bottom: 60px;
 }
 
 .testimonial-card {
     text-align: left;
     background: #fff;
-    padding: 30px;
+    padding: 10px;
     border-radius: 12px;
 }
 
