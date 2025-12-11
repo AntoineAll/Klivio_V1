@@ -287,6 +287,10 @@ img {
     margin-left: 7rem;
 }
 
+.initial-price  {
+    font-size: 0.5rem;
+}
+
 .price2 {
     color: var(--klivio-blue-night);    
     position: relative;
