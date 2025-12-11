@@ -362,8 +362,8 @@ img {
 }
 
 .testimonial-img {
-    width: 80px;
-    height: 80px;
+    width: 139px;
+    height: 139px;
     border-radius: 50%;
     margin: 0 left 15px;
     object-fit: cover;
@@ -534,6 +534,11 @@ cite {
 
 .footer-socials a:hover {
     color: var(--klivio-green);
+}
+
+.form {
+    height: 24px;
+    width: 24px;
 }
 
 /* ==================================== */
