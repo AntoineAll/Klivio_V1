@@ -101,7 +101,7 @@ img {
 
 .btn-primary {
     background: var(--klivio-gradient); /* Dégradé pour le bouton d'inscription */
-    color: #fff;
+    color: var(--klivio-white);
 }
 
 .btn-primary:hover {
@@ -446,17 +446,33 @@ cite {
 /* ==================================== */
 /* 8. A PROPOS & CONTACT                */
 /* ==================================== */
-
 .about-us {
-    padding: 40px 0;
-    text-align: left;
-    background: var(--klivio-light-gray);
+    padding: 0;
 }
 
-.about-us p {
-    max-width: 800px;
-    margin: 0 auto 15px;
-    color: var(--klivio-text-color);
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* TEXTE À GAUCHE */
+.about-text {
+    background: var(--klivio-white);
+    padding: 80px 60px;
+}
+
+/* BLOC LOGO À DROITE */
+.about-logo-block {
+    background: var(--klivio-blue-night);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.about-logo {
+    width: 250px;
+    height: auto;
 }
 
 .contact-us {
@@ -668,6 +684,20 @@ cite {
         flex: 1;
         max-width: 55%;
     }
+
+    .about-grid {
+        grid-template-columns: 1fr 1fr; 
+        min-height: 500px;
+    }
+
+    .about-text {
+        padding: 100px 120px;
+    }
+
+    .about-logo-block {
+        padding: 100px;
+    }
+    
 
     /* FOOTER (Desktop) */
     .footer-content {
