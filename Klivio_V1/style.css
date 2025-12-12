@@ -96,7 +96,6 @@ img {
     font-weight: 600;
     text-align: center;
     cursor: pointer;
-    transition: opacity 0.3s, background-color 0.3s;
     display: inline-block;
     border: none; 
 }
@@ -231,81 +230,71 @@ img {
 /* ==================================== */
 
 .courses {
-    padding: 60px ;
+    padding: 60px 0;
+    background: var(--klivio-light-white);
 }
 
 .courses2 {
-    padding: 60px ;
+    padding: 60px 0;
     background: var(--klivio-blue-night);
 }
 
-.card-list {
-    display: grid;
-    grid-template-columns: 1fr; 
-    gap: 25px;
+.card-list, .card-list2 {
+    display: grid; 
+    grid-template-columns: 1fr;
+    gap: 30px;
 }
 
-.card-list2 {
-    display: grid;
-    grid-template-columns: 1fr; 
-    gap: 25px;
+.card, .card2 {
+    position: relative;
+    overflow: hidden;
 }
-
 .card {
     background: var(--klivio-white);
-    overflow: hidden;
 }
 
 .card2 {
     background: var(--klivio-blue-night);
-    overflow: hidden;
 }
 
-.card img {
-    height: 180px; 
+.card img, .card2 img {
+    width: 100%;
+    height: auto; 
 }
 
-.card-info {
+.card-info, .card-info2 {
     padding: 15px;
+    width: 100%;
+    height: auto; 
 }
 
-.card-info2 {
-    padding: 15px;
-}
+.price, .price2 {
+    position: absolute;
+    right: 15px;
+    
+    padding: 0.6rem 1rem;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 1rem;
+    z-index: 5;
 
+    top: initial;
+    margin-left: initial;
+}
 
 .price {
     color: var(--klivio-white);    
-    position: relative;
-    bottom: 1.8rem;
-
-
     background: var(--klivio-blue-night);
-    padding: 0.6rem 1rem;
-    border-radius: 15px;
-
-    font-weight: 700;
-    font-size: 1rem;
-    margin-left: 7rem;
-}
-
-.initial-price  {
-    font-size: 0.5rem;
 }
 
 .price2 {
     color: var(--klivio-blue-night);    
-    position: relative;
-    bottom: 1.8rem;
-    
-
     background: var(--klivio-white);
-    padding: 0.6rem 1rem;
-    border-radius: 15px;
+}
 
-    font-weight: 700;
-    font-size: 1rem;
-    margin-left: 7rem;
+
+.initial-price  {
+    font-size: 0.5rem;
 }
 
 .card h3 {
@@ -502,7 +491,7 @@ cite {
     justify-content: space-between;
 }
 
-.mail-form {
+.message-form {
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -516,7 +505,7 @@ cite {
     background: var(--klivio-blue-night);
 }
 
-.mail-form textarea {
+.message-form textarea {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
@@ -525,7 +514,7 @@ cite {
     background: var(--klivio-blue-night);
 }
 
-.mail-form textarea {
+.message-form textarea {
     height: 150px;
     resize: vertical;
 }
@@ -661,10 +650,12 @@ cite {
     /* FORMATIONS (Desktop) */
     .card-list {
         grid-template-columns: repeat(4, 1fr); 
+        gap: 30px; 
     }
 
     .card-list2 {
         grid-template-columns: repeat(4, 1fr); 
+        gap: 30px; 
     }
     
     .courses {
@@ -675,6 +666,12 @@ cite {
         padding: 60px 50px;
     }
     
+    .price, .price2 {
+        bottom: 120px;
+        top: initial;
+    }
+    
+
     /* AVIS CLIENTS (Desktop) */
     .testimonial-list {
         flex-direction: row;
