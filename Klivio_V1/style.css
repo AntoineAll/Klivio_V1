@@ -407,6 +407,8 @@ cite {
     gap: 30px;
     align-items: center;
     text-align: center;
+    padding-left: 101px;
+    
 }
 
 .advantage-grid img {
@@ -494,14 +496,14 @@ cite {
 }
 
 .contact-form {
-    max-width: 1500px;
+    max-width: 1300px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
 .mail-form {
-    max-width: 1500px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
