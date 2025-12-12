@@ -477,17 +477,33 @@ cite {
     height: auto;
 }
 
+/*NOUS CONTACTER*/
 .contact-us {
     padding: 60px 0;
 }
 
 .contact-form {
-    max-width: 500px;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mail-form {
+    max-width: 1500px;
     margin: 0 auto;
 }
 
-.contact-form input,
-.contact-form textarea {
+.contact-form input {
+    width: 46%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    font-family: var(--font-primary);
+    background: var(--klivio-blue-night);
+}
+
+.mail-form textarea {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
@@ -496,7 +512,7 @@ cite {
     background: var(--klivio-blue-night);
 }
 
-.contact-form textarea {
+.mail-form textarea {
     height: 150px;
     resize: vertical;
 }
@@ -699,7 +715,6 @@ cite {
     .about-logo-block {
         padding: 100px;
     }
-    
 
     /* FOOTER (Desktop) */
     .footer-content {
