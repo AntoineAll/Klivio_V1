@@ -348,21 +348,21 @@ img {
     display: flex;
     flex-direction: column; 
     gap: 10px;
-    padding-bottom: 60px;
+    padding: 0 5% 60px;
 }
 
 .testimonial-card {
     text-align: left;
     background: #fff;
-    padding: 10px;
-    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .testimonial-img {
     width: 139px;
     height: 139px;
     border-radius: 50%;
-    margin: 0 left 15px;
     object-fit: cover;
 }
 
@@ -686,10 +686,18 @@ cite {
     /* AVIS CLIENTS (Desktop) */
     .testimonial-list {
         flex-direction: row;
-        justify-content: center;
-        gap: 50px;
-        max-width: 1000px;
+        justify-content: space-between;
+        gap: 4%;
         margin: auto;
+        padding-inline: 10%;
+    }
+
+    .testimonial-card {
+        text-align: left;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
     }
 
     /* AVANTAGES & DEVENIR AUTEUR (Desktop) */
