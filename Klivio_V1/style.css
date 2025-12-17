@@ -190,11 +190,12 @@ img {
 
 .hero {
     position: relative;
-    background: url('assets/images/bg-header.png') no-repeat center center/cover;
+    background: url('assets/images/header-mobile.png') no-repeat bottom center/cover;
     padding: 60px 0;
     color: var(--klivio-white);
     text-align: center;
     overflow: hidden;
+    object-fit: cover;
 }
 
 .hero::after {
@@ -664,7 +665,8 @@ cite {
 
     /* SECTION HERO (Desktop) */
     .hero {
-        padding: 100px 0;
+        padding: 200px 0;
+        background: url('assets/images/bg-header.png') no-repeat center center/cover;
     }
     
     .hero h2 {
