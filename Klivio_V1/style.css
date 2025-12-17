@@ -145,7 +145,7 @@ img {
 .center-btn {
     display: block;
     width: fit-content;
-    margin: 30px auto 0;
+    margin: 3.75rem auto 0;
 }
 
 
@@ -243,7 +243,7 @@ img {
     display: grid; 
     grid-template-columns: 1fr;
     place-items: center;
-    gap: 30px;
+    gap: 1.875rem;
     width: 100%;
 }
 
@@ -658,31 +658,28 @@ cite {
         font-size: 3.5rem;
     }
 
-    .section-title{
+    .section-title, .section-title2{
         text-align: initial;
-    }
-
-    .section-title2{
-        text-align: initial;
+        margin-left: 10%;
     }
 
     /* FORMATIONS (Desktop) */
     .card-list {
-        grid-template-columns: repeat(4, 1fr); 
-        gap: 30px; 
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 5%; 
     }
 
     .card-list2 {
-        grid-template-columns: repeat(4, 1fr); 
-        gap: 30px; 
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 5%; 
     }
     
     .courses {
-        padding: 60px 50px;
+        padding: 60px 0;
     }
 
     .courses2 {
-        padding: 60px 50px;
+        padding: 60px 0;
     }
     
 
@@ -764,5 +761,26 @@ cite {
 
     .about-grid {
         grid-template-columns: 55% 45%;
+    }
+}
+
+@media (min-width: 1350px) {
+
+.section-title, .section-title2
+{
+margin-left: 4%;
+}
+
+
+    .card-list
+    {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1%;
+    }
+
+    .card-list2
+    {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1%;
     }
 }
