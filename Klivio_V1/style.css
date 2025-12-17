@@ -90,7 +90,7 @@ img {
 /* 2. BOUTONS & ELEMENTS GENERIQUES     */
 /* ==================================== */
 
-.btn-primary, .btn-secondary, .btn-third, .btn-forth{
+.btn-primary, .btn-secondary, .btn-third, .btn-fourth{
     padding: 10px 20px;
     border-radius: 6px;
     font-weight: 600;
@@ -131,13 +131,13 @@ img {
     color: var(--klivio-blue-night);
 }
 
-.btn-forth {
+.btn-fourth {
     background: var(--klivio-green);
     color: var(--klivio-text-color); 
     border: 2px solid var(--klivio-green); 
 }
 
-.btn-forth:hover {
+.btn-fourth:hover {
     background: var(--klivio-white);
     color: var(--klivio-blue-night);
 }
@@ -484,27 +484,24 @@ cite {
 }
 
 .green-line{
-    background-color: var(--klivio-green);
-    width: 350px;
-    height: 1px;
-    margin-bottom: 2%;
-    border: none;
+    display: none;
 }
 
 .contact-form {
-    max-width: 1300px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .message-form {
-    max-width: 1300px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .contact-form input {
-    width: 46%;
+    width: 100%;
     padding: 12px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -513,7 +510,9 @@ cite {
 }
 
 .message-form textarea {
-    width: 100%;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
     padding: 12px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -526,8 +525,8 @@ cite {
     resize: vertical;
 }
 
-.contact-form .btn-primary {
-    width: 100%;
+.btn-fourth {
+    width: 90%;
 }
 
 /* ==================================== */
@@ -753,6 +752,28 @@ cite {
     .about-logo-block {
         height: 100%;
         aspect-ratio: 1/1;
+    }
+
+    .green-line {
+        background-color: var(--klivio-green);
+        width: 350px;
+        height: 1px;
+        margin-bottom: 2%;
+        border: none;
+        display: block;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-form input {
+        width: 46%;
+    }
+
+    .btn-fourth {
+        width: 15%;
     }
 
     /* FOOTER (Desktop) */
