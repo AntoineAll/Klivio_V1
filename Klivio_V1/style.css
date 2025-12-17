@@ -559,7 +559,6 @@ cite {
     gap: 10px;
     font-size: 1.4rem;
     font-weight: 700;
-    margin: auto;
 }
 
 .footer-coordonnees {
@@ -577,8 +576,6 @@ cite {
     text-align: start;
 }
 
-
-
 .footer-logo .logo-img {
     width: 243px;
     aspect-ratio: 243/87;
@@ -591,15 +588,7 @@ cite {
     text-align: center;
 }
 
-.footer-socials a {
-    color: var(--klivio-white);
-    font-size: 1.3rem;
-    margin: 0 10px;
-    transition: color 0.3s;
-    display: none;
-}
-
-.footer-lower, .footer-actions
+.footer-lower, .footer-buttons, .gline
 {
     display: none;
 }
@@ -607,15 +596,6 @@ cite {
 .form {
     height: 24px;
     width: 24px;
-}
-
-.gline{
-    /* background-color: var(--klivio-green);
-    width: 100%;
-    height: 2px;
-    margin-bottom: 2%;
-    border: none; */
-    display: none;
 }
 
 /* ==================================== */
@@ -782,19 +762,77 @@ cite {
         align-items: center;
     }
 
-    .footer-content {
+    .footer-upper {
+        width: 90%;
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+        align-items: start;
+    }
+
+    .footer-upper h4 {
+        margin: 0;
+    }
+
+    .footer-links, .footer-coordonnees {
+        width: 200px;
+        text-align: start;
+        gap: 2px;
+    }
+
+    .footer-logo {
+        width: 283px;
+        height: 87px;
     }
     
-    .footer-links {
+    .footer-split
+    {
+        display: flex;
         flex-direction: row;
-        gap: 20px;
+        justify-content: space-between;
+        gap: 10%;
     }
-    
-    .footer-logo .logo-img {
-        width: 110px;
+
+    .footer-split .footer-links
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-buttons
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .gline {
+    background-color: var(--klivio-green);
+    width: 90%;
+    height: 2px;
+    margin-bottom: 2%;
+    border: none;
+    display: block;
+    }
+
+    .footer-lower {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-socials {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .footer-socials a {
+    color: var(--klivio-white);
+    font-size: 1.3rem;
+    margin: 0 10px;
+    transition: color 0.3s;
     }
 }
 
