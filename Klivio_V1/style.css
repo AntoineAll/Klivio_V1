@@ -61,7 +61,7 @@ img {
 
 .section-title {
     color: var(--klivio-blue-night); /* Bleu Nuit */
-    font-size: 1.5rem;
+    font-size: 2.25rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: 30px;
@@ -70,7 +70,7 @@ img {
 
 .section-title2 {
     color: var(--klivio-white);
-    font-size: 1.5rem;
+    font-size: 2.25rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: 30px;
@@ -79,7 +79,7 @@ img {
 
 .section-title3 {
     color: var(--klivio-blue-night);
-    font-size: 1.5rem;
+    font-size: 2.25rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: 30px;
