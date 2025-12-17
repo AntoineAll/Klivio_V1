@@ -673,6 +673,10 @@ cite {
         font-size: 3.5rem;
     }
 
+    .formation-title {
+        margin-left: 4%;
+    }
+
     .section-title, .section-title2{
         text-align: initial;
     }
