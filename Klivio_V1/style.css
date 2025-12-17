@@ -675,7 +675,6 @@ cite {
 
     .section-title, .section-title2{
         text-align: initial;
-        margin-left: 10%;
     }
 
     /* FORMATIONS (Desktop) */
@@ -874,13 +873,6 @@ cite {
 }
 
 @media (min-width: 1350px) {
-
-.section-title, .section-title2
-{
-margin-left: 4%;
-}
-
-
     .card-list
     {
         grid-template-columns: repeat(4, 1fr);
